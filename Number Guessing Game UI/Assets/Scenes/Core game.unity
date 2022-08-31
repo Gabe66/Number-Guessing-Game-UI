@@ -540,7 +540,7 @@ GameObject:
   - component: {fileID: 442328487}
   - component: {fileID: 442328486}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Guessing Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -563,7 +563,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 249, y: 0}
+  m_AnchoredPosition: {x: 434, y: 0}
   m_SizeDelta: {x: 247.35492, y: 103.66882}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &442328486
@@ -830,7 +830,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 499187982}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1139100551}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &499187982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1003,7 +1015,7 @@ GameObject:
   - component: {fileID: 1036371181}
   - component: {fileID: 1036371180}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Computer Message Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1026,7 +1038,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 348, y: -210.69}
+  m_AnchoredPosition: {x: 585.54, y: -210.69}
   m_SizeDelta: {x: 550.4259, y: 293.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1036371180
@@ -1181,7 +1193,7 @@ GameObject:
   - component: {fileID: 1139100553}
   - component: {fileID: 1139100552}
   m_Layer: 0
-  m_Name: Scece Loader
+  m_Name: Scene Loader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

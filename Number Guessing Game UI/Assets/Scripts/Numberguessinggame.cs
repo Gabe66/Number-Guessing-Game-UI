@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class NumberGuessingGame : MonoBehaviour
 {
-     private int guess = 5;
-    private int minValue = 1;
-    private int maxValue = 10;
+    [SpecicalizeField]private int guess = 5;
+    [SpecicalizeField]private int minValue = 1;
+    [SpecicalizeField]private int maxValue = 10;
 
+
+    private int guess; 
     // Start is called before the first frame update
     void Start()
     {
