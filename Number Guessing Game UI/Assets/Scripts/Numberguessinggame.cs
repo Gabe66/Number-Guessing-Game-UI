@@ -1,20 +1,44 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMpro;
 public class NumberGuessingGame : MonoBehaviour
 {
-    [SpecicalizeField]private int guess = 5;
-    [SpecicalizeField]private int minValue = 1;
-    [SpecicalizeField]private int maxValue = 10;
+    
+    [SerializeField]private int minValue = 1;
+    [SerializeField]private int maxValue = 10;
+    [SerializedField]private TextMeshProUGUI GuessText;
 
-
-    private int guess; 
+    private int guess;
     // Start is called before the first frame update
     void Start()
     {
        StartGame();
     } 
+    
+
+    public void OnPressHigher()
+    {
+        minValue = guess + 1;
+        NextGuess();
+    }
+
+    public void OnPressLower()
+    {
+        maxValue = guess - 1;
+        NextGuess;
+    }
+    Public void NextGuess()
+    {
+        guess = Random.Range(minValue, maxValue + 1);
+        guessText.text = huess.ToString();
+    }
+    void StartGame()
+    {
+        NextGuess();
+    }
+
+
 
     // Update is called once per frame
     void Update()
