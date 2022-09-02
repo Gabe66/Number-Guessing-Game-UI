@@ -831,13 +831,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1139100551}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1139100552}
+        m_TargetAssemblyTypeName: Sceneloader, Assembly-CSharp
+        m_MethodName: LoadNextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -964,7 +964,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 626607032}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1115443876}
+        m_TargetAssemblyTypeName: NumberGuessingGame, Assembly-CSharp
+        m_MethodName: OnPressLower
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &626607032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1141,8 +1153,8 @@ CanvasRenderer:
 --- !u!1 &1115443875
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1097903330917773950, guid: 33148759255aea64fa27a6f0aa0ae2a5, type: 3}
+  m_PrefabInstance: {fileID: 1097903332031078621}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
@@ -1158,8 +1170,8 @@ GameObject:
 --- !u!114 &1115443876
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1097903330917773945, guid: 33148759255aea64fa27a6f0aa0ae2a5, type: 3}
+  m_PrefabInstance: {fileID: 1097903332031078621}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115443875}
   m_Enabled: 1
@@ -1169,11 +1181,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minValue: 1
   maxValue: 10
+  guessText: {fileID: 0}
 --- !u!4 &1115443877
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1097903330917773944, guid: 33148759255aea64fa27a6f0aa0ae2a5, type: 3}
+  m_PrefabInstance: {fileID: 1097903332031078621}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115443875}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1379,7 +1392,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1714197179}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1115443876}
+        m_TargetAssemblyTypeName: NumberGuessingGame, Assembly-CSharp
+        m_MethodName: OnPressHigher
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1714197179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1523,3 +1548,60 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &1097903332031078621
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1097903330917773944, guid: 33148759255aea64fa27a6f0aa0ae2a5, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097903330917773944, guid: 33148759255aea64fa27a6f0aa0ae2a5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097903330917773944, guid: 33148759255aea64fa27a6f0aa0ae2a5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097903330917773944, guid: 33148759255aea64fa27a6f0aa0ae2a5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097903330917773944, guid: 33148759255aea64fa27a6f0aa0ae2a5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097903330917773944, guid: 33148759255aea64fa27a6f0aa0ae2a5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097903330917773944, guid: 33148759255aea64fa27a6f0aa0ae2a5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097903330917773944, guid: 33148759255aea64fa27a6f0aa0ae2a5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097903330917773944, guid: 33148759255aea64fa27a6f0aa0ae2a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097903330917773944, guid: 33148759255aea64fa27a6f0aa0ae2a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097903330917773944, guid: 33148759255aea64fa27a6f0aa0ae2a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097903330917773950, guid: 33148759255aea64fa27a6f0aa0ae2a5, type: 3}
+      propertyPath: m_Name
+      value: Game play
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 33148759255aea64fa27a6f0aa0ae2a5, type: 3}
